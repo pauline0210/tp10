@@ -2,4 +2,4 @@
 
 Mon projet est un catalogue de biere
 On peut choisir la biere qu'on veut puis elle s'ajoute dans notre commande
-En dessou iil y a un compteur qui calcule pour nous le  prix de notre commande
+En dessou il y a un compteur qui calcule pour nous le  prix de notre commande
