@@ -1,0 +1,21 @@
+table,td,th {
+    border-color : rgb(10, 1, 10);
+    border-style :solid ;
+    border-width: 2px ;
+    text-align: center;
+}
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+    font-family: Apple Chancery, cursive;
+}
+h1,h2{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+table {
+    width: 40em;
+}
+img{
+    width: 8em;
+}

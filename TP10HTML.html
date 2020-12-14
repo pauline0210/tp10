@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>24 h vélo</title>
+    <link rel="stylesheet" type="text/css" href="css/TP10CSS.css">
+    <script  src="js/tpdix.js"></script>
+</head>
+<body>
+<h1>Les 24h vélos 2020 </h1>
+<h2>Cette année nous vous proposons notre nouvelle carte ! </h2>
+<div id="bieres">
+    <tbody>
+    <table>
+        <caption>
+            <span>Quelle boisson(s) voulez vous ?</span>
+        </caption>
+        <thead>
+        <tr>
+            <th class="ref">Référence</th>
+            <th class="photo">Photo</th>
+            <th class ="degre">Degré</th>
+            <th class="nom">Nom</th>
+            <th class="prix">Prix (€)</th>
+            <th class="Ajt">Ajouter</th>
+        </tr>
+        </thead>
+        <tbody id="tableBieres">
+        <tr>
+            <td class="ref">a100</td>
+            <th class="photo"><img src="images/jupiler.png"></th>
+            <td class="degre">5.2 %</td>
+            <td class="nom">Jupiler</td>
+            <td class="prix">1</td>
+            <td class="Ajt">
+                <input type="button" value="ajt" name="a100" onclick="ajouterBoisson(this)" ;>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="ref">a101</td>
+            <th class="photo"><img src="images/maes.png"></th>
+            <td class="degre">5.2 %</td>
+            <td class="nom">Maes</td>
+            <td class="prix">1</td>
+            <td class="Ajt">
+                <input type="button" value="ajt" name="a101" onclick="ajouterBoisson(this)" ;>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="ref">a102</td>
+            <th class="photo"><img src="images/stella%20artoiss.png"></th>
+            <td class="degre"> 5.2 %</td>
+            <td class="nom">Stella artois</td>
+            <td class="prix">1</td>
+            <td class="Ajt">
+                <input type="button" value="ajt" name="a102" onclick="ajouterBoisson(this)" ;>
+            </td>
+        </tr>
+        <tr>
+            <td class="ref">a103</td>
+            <th class="photo"><img src="images/kasteel_rouge_fles_glas.png"></th>
+            <td class="degre"> 8 %</td>
+            <td class="nom">Kasteel red</td>
+            <td class="prix">2</td>
+            <td class="Ajt">
+                <input type="button" value="ajt" name="a103" onclick="ajouterBoisson(this)" ;>
+            </td>
+        </tr>
+        <tr>
+            <td class="ref">a104</td>
+            <th class="photo"><img src="images/chimay.jfif"></th>
+            <td class="degre"> 9 %</td>
+            <td class="nom">Chimay</td>
+            <td class="prix">2.5</td>
+            <td class="Ajt">
+                <input type="button" value="ajt" name="a104" onclick="ajouterBoisson(this)" ;>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<table>
+    <caption id="votre">
+        <span>Votre commande </span>
+    </caption>
+    <thead>
+    <tr>
+        <th class="ref">Référence</th>
+        <th class="nom">Nom</th>
+        <th class="prix">Prix (€)</th>
+        <th class="nombre">Nombre</th>
+    </tr>
+    </thead>
+    <tbody id="tableAchats">
+
+    </tbody>
+</table>
+
+<div id="montant">
+    Votre montant :
+    <span id="total"> </span>
+</div>
+
+</body>
+</html>
